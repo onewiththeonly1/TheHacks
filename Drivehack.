@@ -1,0 +1,8 @@
+Let multiple gmail users verfiy themselves for this drive app to manage their data,
+
+when a request is made to Drive for any of the operation, token.pickle is used. 
+We can store multiple accounts creds with multiple token.pickle. 
+Just at the time of sending the request, rename one of the randomly selected file
+to be token.pickle, and bingo!
+Make the call, and it should all work just fine. 
+
